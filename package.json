@@ -1,0 +1,34 @@
+{
+  "name": "webdriver-facilitator-skill",
+  "version": "0.0.2",
+  "description": "Facilitator skill for webdriver",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinityLabs/webdriver-facilitator-skill.git"
+  },
+  "keywords": [
+    "facilitator",
+    "webdriver",
+    "automation"
+  ],
+  "author": "Definity Labs",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/DefinityLabs/webdriver-facilitator-skill/issues"
+  },
+  "homepage": "https://github.com/DefinityLabs/webdriver-facilitator-skill#readme",
+  "devDependencies": {
+    "coveralls": "^2.13.1",
+    "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "facilitator": "0.0.3",
+    "selenium-webdriver": "^3.5.0"
+  }
+}
